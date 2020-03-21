@@ -1,0 +1,68 @@
+body {
+
+    background: url("../img/contact.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-backgroud-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+.content {
+    background-color:rgb(0, 0, 0, 0, 7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 50px;
+    scroll-padding-top: 250px;
+    height: auto;
+}
+
+#myVideo {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+  .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+#social-media-links > li { /* Direct child selector ">". The LI must be DIRECTLY inside the element with the "social-media-links" id in this case. */
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif black;
+    margin: 8px; /* Observe! Margin collapse - the largest, when interacting, wins! */
+}
+
+#social-media-links .fab {
+    color: black ( 100, 100, 100, 100 ); /* RGBA - the "a" stands for ALPHA channel. */
+    /* For alpha: 1 =
+}
+
+#social-media-links a:hover .fab,
+#social-media-links a:focus .fab,
+#social-media-links a:active .fab { /* Psuedo-selector with nesting. */
+    color: rgba( 50, 50, 50, 0.5 );
+}
+.center h1{
+    text-align: center;
+    font-size: xx-large;
+}
+
+#Comments and Reviews {
+    background-color: red;
+} 
+
+textarea {
+    font-weight: bold;
+    font-size: medium;
+    opacity: 85%;
+}

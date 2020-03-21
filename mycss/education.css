@@ -1,0 +1,44 @@
+body {
+
+    background: url("../img/education.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-backgroud-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+} 
+
+.content {
+    background-color:rgb(0, 0, 0, 0, 7);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 50px;
+    scroll-padding-top: 250px;
+    height: auto;
+}
+
+navigation {
+    font-weight: bolder;
+    color: black;
+}
+
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    display: block;
+    width: auto;
+    padding: 32px;
+} 
+nav a {
+    text-shadow: 16px 16px 8px black;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+  }
